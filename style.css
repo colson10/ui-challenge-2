@@ -1,0 +1,180 @@
+body {
+  margin: 50px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+div {
+  display: block;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  color: rgb(117, 116, 116);
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  color: rgb(117, 116, 116);
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+label {
+  font-size: 24px;
+  float: left;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+p {
+  color: rgb(109, 109, 109);
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+
+input {
+  float: left;
+}
+
+input::placeholder {
+  font-size: 24px;
+  padding-left: 20px;
+  color: rgb(167, 167, 167);
+  font-weight: 300;
+}
+
+#input1 {
+  border: 1px solid rgb(100, 100, 100);
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+}
+
+#input2 {
+  border: 1px solid rgb(100, 100, 100);
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 5px auto;
+}
+
+#input2:invalid {
+  border: 1px solid red;
+}
+
+#error-message {
+  font-weight: 200;
+  color: red;
+  text-align: right;
+  font-size: 20px
+}
+
+select {
+  /* background-image: url("/form-elements-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -400px -125px; */
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+
+select::selected {
+  height: 30px;
+  border: 1px solid black;
+}
+
+/* #select1{
+  display: inline-block;
+  clear: both;
+}
+
+#select1::selection {
+  display: block;
+}
+
+#select1:not(:selection) + label {
+  background-color: rgb(204, 204, 204);
+}
+
+#select1:selection + label {
+  background-image: url("/form-elements-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -195px -120px;
+}
+
+.select-box {
+  width: 100%;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 2px;
+  display: block;
+  clear: both;
+} */
+
+#check-box{
+  display: none;
+  clear: both;
+}
+
+#check-box:not(:checked) + label {
+  background-color: rgb(204, 204, 204);
+}
+
+#check-box:checked + label {
+  background-image: url("/form-elements-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -195px -120px;
+}
+
+.labels {
+  margin-top: 150px;
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 2px;
+  display: block;
+  clear: both;
+}
+
+#radio1 {
+  display: none;
+}
+
+#radio1:not(:checked) + label {
+  background-color: rgb(204, 204, 204);
+}
+
+#radio1:checked + label {
+  background-image: url("/form-elements-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -410px -125px;
+}
+
+.radio-label {
+  margin: 150px 50px;
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: block;
+}
+
+#submit-button {
+  margin: 150px 50px;
+  display: block;
+  width: 200px;
+  height: 75px;
+  font-size: 30px;
+}
+
+#submit-button:active {
+  background-color: rgb(105, 104, 104);
+}

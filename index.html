@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Challenge - 2</title>
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <h2>UI Challenge - Custom Form Elements</h2>
+  <form>
+    
+    <label for="input2"> 
+      <p>text input</p>
+      <input id="input2" type="text" placeholder="placeholder text" required>
+      <p id="error-message">please enter a valid username</p>
+    </label>
+
+    <h3>select box</h3>
+    <label class="select-box">
+    <select type="radio" id="select1" placeholder="please select an option...">
+      <option value="" disabled selected hidden> 
+        <p>please select an option...</p>
+      </option>
+      <option value="">option 1</option>
+      <option value="">option 2</option>
+      <option value="">option 3</option>
+      <option value="">option 4</option>
+      <option value="">option 5</option>
+    </select>
+    </label>
+
+      <input id="check-box" type="checkbox">
+      <label class="labels" for="check-box"></label>
+
+      <input id="radio1" type="radio">
+      <label class="radio-label" for="radio1"></label>
+  </form>
+  <button id="submit-button">submit</button>
+</body>
+</html>
